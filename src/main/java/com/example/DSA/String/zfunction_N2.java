@@ -1,9 +1,9 @@
-package com.example.learning;
+package com.example.DSA.String;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class zfunction {
+public class zfunction_N2 {
 
     public void calcAns(String inp){
         System.out.println("input string is " + inp);
@@ -16,13 +16,13 @@ public class zfunction {
             int j=i;
             for (;j<n;){
                 if(inp.charAt(l) != inp.charAt(j)){
-                    System.out.println(inp.charAt(l)+ "" + inp.charAt(j));
+                    // System.out.println(inp.charAt(l)+ "" + inp.charAt(j));
                     break;
                 }
-                System.out.println(inp.charAt(l)+ "-" + inp.charAt(j));
+                // System.out.println(inp.charAt(l)+ "-" + inp.charAt(j));
                 l++;j++;++cnt;
             }
-            System.out.println("cnt-"  + cnt);
+            // System.out.println("cnt-"  + cnt);
             arr[i] = cnt;
         }
         arr[0] = 0;

@@ -1,12 +1,13 @@
 package com.example.demo;
 
-import com.example.learning.zfunction;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.DSA.String.zfunction_N2;
 
 @SpringBootApplication
 public class DemoApplication {
   public static void main(String[] args) {
-    zfunction z = new zfunction();
+    zfunction_N2 z = new zfunction_N2();
     z.run();
   }
 
