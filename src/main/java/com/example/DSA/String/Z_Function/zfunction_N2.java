@@ -1,4 +1,4 @@
-package com.example.DSA.String;
+package com.example.DSA.String.Z_Function;
 
 import java.util.Arrays;
 import java.util.Scanner;

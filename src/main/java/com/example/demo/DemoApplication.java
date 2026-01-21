@@ -2,7 +2,7 @@ package com.example.demo;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.example.DSA.String.zfunction_N2;
+import com.example.DSA.String.Z_Function.zfunction_N2;
 
 @SpringBootApplication
 public class DemoApplication {
