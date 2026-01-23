@@ -134,8 +134,7 @@ And the window evolution was:
 * From `i=4` to `i=7` → window stays `L=3, R=7`
 
 
-this part i do no understand why we need to use this line
-R - i + 1 = 1
+## this part i do no understand why we need to use this line R - i + 1 = 1
 
 Think of it like this in the most basic, non-algorithm way.
 
