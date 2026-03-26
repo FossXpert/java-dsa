@@ -4,11 +4,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.example.DSA.String.Z_Function.zfunction_N;
 import com.example.DSA.String.Z_Function.zfunction_N2;
+import com.example.DSA.String.KMP.kmp;
+
 
 @SpringBootApplication
 public class DemoApplication {
   public static void main(String[] args) {
-    zfunction_N z = new zfunction_N();
+    kmp z = new kmp();
     z.run();
   }
 
