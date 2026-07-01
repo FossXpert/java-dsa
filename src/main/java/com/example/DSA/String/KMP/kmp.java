@@ -1,5 +1,5 @@
 package com.example.DSA.String.KMP;
-// hello
+
 import java.util.Arrays;
 import java.util.Scanner;
 
